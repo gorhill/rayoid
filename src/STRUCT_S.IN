@@ -1,0 +1,243 @@
+.nlist
+
+**************************************************************************
+*
+*	Definitions relatives au mode complexe
+
+SPACE_W = 4096
+SPACE_H = 4096
+BS_ENERMIN = 1024
+BS_ENERMAX = 16384
+JR_ENERMAX = 8192
+CRYO_UNIT = 1024
+JRBS_HIT = 128
+BSJR_HIT = 512
+JRJR_HIT = 32
+NBASE = 28
+
+**************************************************************************
+*
+*	Codes modem
+
+MIDILINK = 122
+POSTMSG = 123
+ACK = 124
+SETSIMPLE = 125
+SETCOMPLEX = 126
+STARTSIGNAL = 127
+QUITGAME = 255
+
+**************************************************************************
+
+	.abs	0
+
+GX:			ds.w	1
+GY:			ds.w	1
+GW:			ds.w	1
+GH:			ds.w	1
+GRECT_SZOF:	ds.w	0
+
+	.abs	0
+
+FX1:		ds.w	1
+FY1:		ds.w	1
+FX2:		ds.w	1
+FY2:		ds.w	1
+FRAME_SZOF:	ds.w	0
+
+	.abs	0
+
+SPR_BOX:		ds.b	GRECT_SZOF
+SPR_XHOT:		ds.w	1
+SPR_YHOT:		ds.w	1
+SPR_WWORD:		ds.w	1
+SPR_IMAGE:		ds.l	1
+SPR_IMAGES:		ds.l	16
+SPR_MASK:		ds.l	1
+SPR_MASKS:		ds.l	16
+SPR_SZOF:		ds.w	0		; 150
+
+	.abs	0
+
+SCRADR_WWORD:	ds.w	1
+SCRADR_HLINE:	ds.w	1
+SCRADR_SCRN:	ds.l	1
+SCRADR_SZOF:	ds.w	0
+
+	.abs	0
+
+AST_ON:			ds.w	1
+AST_IMG:		ds.w	1
+AST_XPOS:		ds.w	1
+AST_YPOS:		ds.w	1
+AST_XPOSFRAC:	ds.w	1
+AST_YPOSFRAC:	ds.w	1
+AST_XVIT:		ds.w	1
+AST_YVIT:		ds.w	1
+AST_SCRBOX:		ds.b	GRECT_SZOF
+AST_SCRADR:		ds.b	(SCRADR_SZOF * 2)
+AST_SZOF:		ds.w	0
+
+	.abs
+
+STAR_MAG:		ds.w	1
+STAR_XPOS:		ds.w	1
+STAR_YPOS:		ds.w	1
+STAR_XPOSFRAC:	ds.w	1
+STAR_YPOSFRAC:	ds.w	1
+STAR_SCRADR:	ds.l	2
+STAR_SZOF:		ds.w	0
+
+	.abs	0
+
+MIS_ON:			ds.w	1
+MIS_TYPE:		ds.w	1
+MIS_XPOS:		ds.w	1
+MIS_YPOS:		ds.w	1
+MIS_XPOSFRAC:	ds.w	1
+MIS_YPOSFRAC:	ds.w	1
+MIS_XVIT:		ds.w	1
+MIS_YVIT:		ds.w	1
+MIS_SCRBOX:		ds.b	GRECT_SZOF
+MIS_SCRADR:		ds.b	(SCRADR_SZOF * 2)
+MIS_SZOF:		ds.w	0
+
+	.abs	0
+
+JR_DIR:			ds.w	1
+JR_XPOS:		ds.w	1
+JR_YPOS:		ds.w	1
+JR_XPOSFRAC:	ds.w	1
+JR_YPOSFRAC:	ds.w	1
+JR_XVIT:		ds.w	1
+JR_YVIT:		ds.w	1
+JR_XVITFRAC:	ds.w	1
+JR_YVITFRAC:	ds.w	1
+JR_MOVE:		ds.w	1
+JR_OLDMOVE:		ds.w	1
+JR_MOTOR:		ds.w	1
+JR_HIT:			ds.w	1
+JR_DOMMAGE:		ds.w	1
+JR_ENERGIE:		ds.w	1
+JR_COUNTER:		ds.l	1
+JR_POINTS:		ds.l	1
+JR_NAME:		ds.b	12
+JR_HYPER:		ds.w	1
+JR_MISTYPE:		ds.w	1
+JR_CRYOGEN:		ds.w	1
+JR_AUTOFIRE:	ds.w	1
+JR_RADRXPOS:	ds.w	1
+JR_RADRYPOS:	ds.w	1
+JR_INVIS:		ds.w	1
+JR_ID:			ds.w	1
+JR_NBASE:		ds.w	1
+JR_NFULLBASE:	ds.w	1
+JR_EXPLX:		ds.w	1
+JR_EXPLY:		ds.w	1
+JR_SAVEXPL:		ds.b	(SCRADR_SZOF * 2)
+JR_PODCNT:		ds.l	1
+JR_MINE:		ds.w	1
+JR_MINEXPOS:	ds.w	1
+JR_MINEYPOS:	ds.w	1
+JR_MINEXFRAC:	ds.w	1
+JR_MINEYFRAC:	ds.w	1
+JR_MINEXVIT:	ds.w	1
+JR_MINEYVIT:	ds.w	1
+JR_SAVMINE:		ds.b	(SCRADR_SZOF * 2)
+JR_FUTURS:		ds.w	19
+JR_SCRBOX:		ds.b	GRECT_SZOF
+JR_MIS:			ds.b	(MIS_SZOF * 8)
+JR_SHIPIMG:		ds.b	(SPR_SZOF * 16)
+JR_SAVSHIP:		ds.b	(SCRADR_SZOF * 2)
+JR_SAVFIRE:		ds.b	(SCRADR_SZOF * 2)
+JR_SZOF:		ds.w	0
+
+	.abs	0
+
+ALN_ON:			ds.w	1
+ALN_TYPE:		ds.w	1
+ALN_COUNT:		ds.w	1
+ALN_IMAGE:		ds.w	1
+ALN_XPOS:		ds.w	1
+ALN_YPOS:		ds.w	1
+ALN_XPOSFRAC:	ds.w	1
+ALN_YPOSFRAC:	ds.w	1
+ALN_XVIT:		ds.w	1
+ALN_YVIT:		ds.w	1
+ALN_SCRBOX:		ds.b	GRECT_SZOF
+ALN_SCRADR:		ds.b	(SCRADR_SZOF * 2)
+ALN_MIS:		ds.b	MIS_SZOF
+ALN_SZOF:		ds.w	0
+
+	.abs	0
+
+NOVA_ON:		ds.w	1
+NOVA_IMG:		ds.w	1
+NOVA_XPOS:		ds.w	1
+NOVA_YPOS:		ds.w	1
+NOVA_XPOSFRAC:	ds.w	1
+NOVA_YPOSFRAC:	ds.w	1
+NOVA_XVIT:		ds.w	1
+NOVA_YVIT:		ds.w	1
+NOVA_SCRBOX:	ds.b	GRECT_SZOF
+NOVA_SCRADR:	ds.b	(2 * SCRADR_SZOF)
+NOVA_SZOF:		ds.w	0
+
+	.abs	0
+
+BASE_MODE:		ds.w	1
+BASE_ENERGIE:	ds.w	1
+BASE_COUNTER:	ds.w	1
+BASE_XPOS:		ds.w	1
+BASE_YPOS:		ds.w	1
+BASE_XPOSFRAC:	ds.w	1
+BASE_YPOSFRAC:	ds.w	1
+BASE_XVIT:		ds.w	1
+BASE_YVIT:		ds.w	1
+BASE_SCRBOX:	ds.b	GRECT_SZOF
+BASE_SCRADR:	ds.b	(SCRADR_SZOF * 2)
+BASE_MIS:		ds.b	MIS_SZOF
+BASE_MAP:		ds.w	1
+BASE_HIT:		ds.w	1
+BASE_SZOF:		ds.w	0
+
+	.abs	0
+
+KBD_STAT:		ds.b	1
+KBD_COUNT:		ds.b	1
+KBD_KEYON:		ds.b	1
+KBD_KEYOFF:		ds.b	1
+KBD_KEYSTAT:	ds.b	120
+KBD_CAPLOCK:	ds.b	1
+KBD_FUTUR:		ds.b	7
+KBD_JOY1:		ds.b	1
+KBD_JOY2:		ds.b	1
+KBD_SZOF:		ds.w	0
+
+	.abs	0
+
+KEY_LROT:		ds.b	1
+KEY_RROT:		ds.b	1
+KEY_FIRE:		ds.b	1
+KEY_MOTOR:		ds.b	1
+KEY_BRAKE:		ds.b	1
+KEY_HYPER:		ds.b	1
+KEY_PAUSE:		ds.b	1
+KEY_INVIS:		ds.b	1
+KEY_CRYOGEN:	ds.b	1
+KEY_LEURRE:		ds.b	1
+
+	.abs	0
+
+BP_LOWTPA:		ds.l	1
+BP_HITPA:		ds.l	1
+BP_TEXTBASE:	ds.l	1
+BP_TEXTSIZE:	ds.l	1
+BP_DATABASE:	ds.l	1
+BP_DATASIZE:	ds.l	1
+BP_BSSBASE:		ds.l	1
+BP_BSSSIZE:		ds.l	1
+
+.text
+
+.list
