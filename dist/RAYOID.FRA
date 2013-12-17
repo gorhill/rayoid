@@ -1,0 +1,812 @@
+
+  RAYOID.FRA  Copyright 1992  Raymond Hill
+  Tous droits r‚serv‚s
+
+  Raymond Hill peut ˆtre rejoint sur...
+
+  GEnie
+    O.OKTAL (Merci … Oktal)
+
+  MASS, (514) 678-0879, (514) 678-0256
+    Ray
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                          ¶ lire absolument!
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  RAYOID.LZH, RAYOID.PRG, RAYOID.FRA et RAYOID.ENG sont Copyright 
+1992.
+
+  Ceci est la version non-enregistr‚e de RAYOID. Pour obtenir la 
+version complŠte, laquelle permet la sauvegarde, vous devrez vous 
+enregistrer auprŠs de l'auteur Raymond Hill.
+
+  Il est strictement interdit de : d‚former, mutiler ou modifier la 
+filiŠre RAYOID.LZH ou les fichiers RAYOID.PRG, RAYOID.FRA et 
+RAYOID.ENG de quelque fa‡on que ce soit.
+
+  Vous ˆtes libre de copier et diffuser gratuitement la filiŠre 
+RAYOID.LZH … la condition absolue que celle-ci n'ait subi aucune 
+modification, de quelque fa‡on que ce soit.
+
+  L'auteur interdit la distribution de RAYOID.LZH sur disquette, sans 
+le consentement ‚crit de Raymond Hill.
+
+  Les personnes enfreignant les articles ci-dessus seront passibles 
+d'ˆtre poursuivi devant la loi.
+
+  Attention ! Vous ne pouvez faire de RAYOID.PRG un fichier ex‚cutable 
+auto-extractable, au risque de rendre le logiciel non-fonctionnel.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+               Rayo‹d - Trois jeux pour tous les go–ts
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  Rayo‹d est un logiciel qui comporte trois types de jeu bien 
+distincts. Dans chacun des jeux, l'action se passe dans un contexte 
+spatial o— vous contr“lez un vaisseau. Cependant le but est diff‚rent 
+selon le mode de jeu choisi.
+
+  Il vous sera possible de :
+
+  ú Jouer seul
+  ú Jouer … deux au clavier
+  ú Jouer … deux par modem
+  ú Jouer … deux via MIDI
+
+  Pour les d‚tails sur chacun des modes de jeu, voir le texte plus 
+bas.
+
+  Dans votre filiŠre RAYOID.LZH, _SEULS_ les trois fichiers suivants 
+doivent prendre place :
+
+  ú RAYOID.PRG... Programme ex‚cutable non-enregistr‚e (90430 octets)
+  ú RAYOID.FRA... Documentation fran‡aise
+  ú RAYOID.ENG... Documentation anglaise
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                      Rayo‹d est un partagiciel
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  Le principe du partagiciel est simple : le programmeur fait 
+absolument toutes les concessions vis-…-vis de l'usager du logiciel. 
+AprŠs avoir effectu‚ les ‚tapes de la conception, de la programmation 
+et de la documentation, il place le logiciel dans les r‚seaux de 
+distribution o— il pourra ˆtre librement et gratuitement diffus‚, et 
+o— chacun peut obtenir une copie _gratuite_ du logiciel.
+
+  Les utilisateurs int‚ress‚s pourront alors faire tout les essais 
+possibles, ‚liminant ainsi les risques de payer 50 $ pour un logiciel 
+de piŠtre qualit‚, ou d'un type ne correspondant pas au go–t de la 
+personne.
+
+  Le dernier geste appartient donc … celui ou celle qui d‚cide 
+d'adopter le produit, et de b‚n‚ficier du travail de l'auteur. 
+Pensez-y bien.
+
+  Aucun salaire ne m'a ‚t‚ vers‚ pour le travail accompli sur ce 
+logiciel, malgr‚ les trŠs nombreuses heures qui lui ont ‚t‚ 
+consacr‚es. Ce temps aurait pu m'ˆtre imm‚diatement profitable 
+mon‚tairement si je l'avais utilis‚ d'une autre fa‡on. Mais j'ai 
+d‚cid‚ de tenter l'exp‚rience du partagiciel, car je crois que 
+l'avantage est trŠs ‚vident sous plusieurs aspects. Cependant le 
+principe du partagiciel, bas‚ sur l'honnˆtet‚ des deux parties est 
+vou‚ … l'‚chec si une seule des deux parties ne rempli pas son contrat 
+moral avec l'autre. Donc soyez honnˆte avec vous-mˆme, et vous aiderez 
+… l'‚mergence d'une nouvelle composante dynamique dans le monde de 
+l'informatique, qui ne peut qu'am‚liorer la cr‚ativit‚ et la qualit‚ 
+des logiciels de VOTRE ordinateur.
+
+  TrŠs sincŠrement, je souhaite que le principe fonctionne, car j'en 
+b‚n‚ficie en travaillant dans un domaine que j'aime, et vous en 
+b‚n‚fieciez, en obtenant des logiciels de qualit‚ … prix budget.
+
+  Dans le cas o— vous d‚cidez de placer Rayo‹d dans votre logithŠque 
+et d‚sirez obtenir la version enregistr‚e de Rayo‹d, laquelle vous 
+permet de sauvegarder vos pointages, fiche personnelle, configurations 
+clavier, etc :
+
+  Envoyez 12 $ Canadien
+
+  Envoyez votre montant, sous forme de chŠque postal, … l'adresse
+suivante :
+
+  Raymond Hill (Rayo‹d)
+  62 Rue Brodeur
+  St-Constant, Qu‚bec
+  Canada
+  J5A 1X3
+
+  Merci.
+
+  Une copie … votre nom et poss‚dant la capacit‚ de sauvegarde vous 
+sera transmise dans les plus brefs d‚lais. N'oubliez pas d'indiquer 
+votre nom et adresse de retour.
+
+  P.-S. : ¶ la condition que le principe fonctionne comme on peut le 
+souhaiter, sachez que j'ai plusieurs projets qui attendent d'ˆtre 
+r‚alis‚, comme l'‚tait Rayo‹d il y a quelques semaines. Pour 
+l'instant, sachez que tous ces projets sont des jeux comportant des 
+modes … deux joueurs via modem et MIDI, ‚chantillonnages sonores, 
+etc.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+       Le d‚veloppement de Rayo‹d n'a pas ‚t‚ une mince affaire
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  Voici plusieurs contraintes que je me suis impos‚ au cours du 
+d‚veloppement du jeu :
+
+  ú Qu'au moins un mode de jeu fonctionne avec seulement 512 Ko.
+  ú Animation de 60 images/seconde en tout temps.
+  ú Restitution d'‚chantillon sonore … 6300 KHz.
+  ú Que Rayo‹d puisse fonctionner sans problŠme sur un TT.
+  ú Utilisation du DMA sonore des STE et TT.
+  ú Possibilit‚ de jouer par modem … 1200 ou 2400 bauds sans que 
+    l'animation en soit affect‚e.
+  ú Possibilit‚ de jouer via liaison MIDI.
+  ú Un seul fichier : programme, images, sons et donn‚es de 
+    configuration.
+  ú Satisfaire tous les go–ts : action et/ou strat‚gie.
+  ú Respecter les gens ayant des langues diff‚rentes : francophone et 
+    anglophone. Et si un jour mes connaissances ou moyens me 
+    permettent de le faire aussi dans d'autres langues, sachez que je 
+    le ferai.
+  ú La qualit‚ dans les moindres d‚tails. Souvent, il semble que 
+    l'‚tiquette Partagiciel (Shareware) soit une excuse au manque de 
+    finition d'un logiciel. J'ai voulu ‚viter ce type de piŠge.
+
+  Rayo‹d repr‚sente plus de 20000 lignes de code source, dont 95 % 
+sont de l'assembleur. Ceci sans compter les trŠs nombreuses heures 
+pass‚es … faire les dessins, l'‚chantillonnage des sons, etc, dans le 
+souci constant de vous satisfaire dans les moindres d‚tails.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                               Rayo‹d I
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  ú Jeu d'action
+  ú Un joueur seul
+  ú ST couleur (ou TT en mode ST)
+  ú 512 Ko de m‚moire vive minimum requis
+  ú chantillonneur DMA des STE et TT support‚
+
+  Rayo‹d I est une adaptation personnelle d'un classique bien connu. 
+Le but du jeu est de d‚truire les ast‚ro‹des avant que ceux-ci ne vous 
+d‚truisent.
+
+  Grƒce … l'option ®Personnaliser le Clavier¯, il vous est possible de 
+red‚finir les touches de contr“le … votre go–t. Cette option est donc 
+bienvenue pour les gauchers. N'importe quelle touche du clavier peut 
+ˆtre utilis‚e, sauf les cl‚s r‚serv‚es … l'utilisation des menus 
+(flŠches haute et basse, Return et Undo). Par d‚faut, les contr“les 
+sont d‚finis comme suit :
+
+    Rotation gauche : Z
+    Rotation droite : X
+                Tir : Shift droit
+           R‚acteur : /
+              Frein : .
+       Hyper espace : Barre d'espacement
+              Pause : Esc
+
+  Abandonner le jeu : Undo
+
+  S'il y a lieu, votre configuration personnelle sera sauvegard‚e 
+lorque vous quitterez Rayo‹d.
+
+  R‚guliŠrement des objets bonis traverseront l'‚cran, capturez-les, 
+ils vous aideront … am‚liorer votre sort.
+
+  Vous obtenez un vaisseau de remplacement lorsque vous atteignez la 
+marque des 2000 points. Par la suite, vous obtiendrez un vaisseau de 
+remplacement pour chaque tranche de 5000 points (donc … 7000, 12000, 
+17000 points, etc..)
+
+  Lorsque la partie se termine, si vous battez le pointage maximum 
+courant, Rayo‹d vous demandera d'entrer votre nom. Aussi, il vous sera 
+permis d'entrer un message personnel qui accompagnera votre nom et  
+pointage dans l'‚cran principal. Le pointage maximum, le nom de 
+l'auteur ainsi que son message seront sauvegard‚s lorsque vous 
+quitterez Rayo‹d.
+
+  Lorsque l'un ou l'autre des modes de jeu par modem (ou MIDI) est 
+utilis‚ (Rayo‹d II ou III), les pointages maximums de Rayo‹d I seront 
+‚chang‚s entre les deux machines, et le plus ‚lev‚ des deux deviendra 
+le pointage maximum courant sur les deux ordinateurs. Par exemple, si 
+vous ˆtes cinq amis qui jouez r‚guliŠrement … Rayo‹d par modem (ou 
+MIDI), le meilleur des cinq … Rayo‹d I verra son exploit apparaŒtre 
+sur les cinq ordinateurs.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                         Rayo‹d II - Clavier
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  ú Jeu d'action (combat)
+  ú Deux joueurs
+  ú ST couleur (ou TT en mode ST)
+  ú 1 Mo de m‚moire vive requis
+  ú chantillonneur DMA des STE et TT support‚
+
+  Rayo‹d II vous permet de vous mesurer avec un adversaire humain dans 
+un combat o— le plus habile l'emporte.
+
+  Le but du jeu est simple, vous devez d‚truire votre adversaire avant 
+que celui-ci ne vous d‚truise. Pour ce faire, il vous suffit de tirer 
+sur son vaisseau avec votre canon photonique. Pour chaque tir r‚ussi, 
+vous diminuez l'‚nergie du vaisseau adverse. Lorsque le niveau 
+d'‚nergie devient nul, le vaisseau est d‚truit, et vous gagnez un 
+point.
+
+  Divers objets viennent compliquer la tƒche des joueurs au fil des 
+parties. vitez les ast‚ro‹des (indestructibles) et am‚liorez votre 
+vaisseau au d‚pend de l'adversaire en touchant physiquement la nova.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                     Rayo‹d II - Modem (ou MIDI)
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  ú Jeu d'action (combat)
+  ú Deux joueurs
+  ú ST couleur (ou TT en mode ST)
+  ú 1 Mo de m‚moire vive requis
+  ú chantillonneur DMA des STE et TT support‚
+  ú Modem compatible Hayes (ou deux cƒbles MIDI)
+
+  Ce mode de jeu vous permet de vous mesurer avec un adversaire humain 
+via modem, dans un combat o— le plus habile l'emporte. L'avantage de 
+jouer par modem est bienvenue lors des longues journ‚es froides 
+d'hiver, fr‚quentes au Qu‚bec.
+
+  Le but du jeu est simple, vous devez d‚truire votre adversaire avant 
+que celui-ci ne vous d‚truise. Pour ce faire, il vous suffit de tirer 
+sur son vaisseau avec votre canon photonique. Pour chaque tir r‚ussi, 
+vous diminuez l'‚nergie du vaisseau adverse. Lorsque le niveau 
+d'‚nergie devient nul, le vaisseau est d‚truit, et vous gagnez un 
+point.
+
+  Divers objets viennent compliquer la tƒche des joueurs au fil des 
+parties. vitez les ast‚ro‹des (indestructibles) et am‚liorez votre 
+vaisseau au d‚pend de l'adversaire en touchant physiquement la nova.
+
+  Vous pouvez communiquez avec l'adversaire en utilisant la touche 
+[Insert]. Pour terminer la communication et poursuivre le jeu, 
+utilisez la touche [Return].
+
+  Les cl‚s servant au contr“le de votre vaisseau sont, par d‚faut :
+
+      Rotation gauche : Z
+      Rotation droite : X
+                  Tir : Shift droit
+             R‚acteur : /
+                Frein : .
+         Hyper espace : Barre d'espacement
+  Transmettre message : Insert
+
+    Abandonner le jeu : Undo
+
+  Bien s–r, il est possible de personnaliser ces contr“les grƒce … 
+l'option ®Personnaliser le Clavier¯, et votre configuration sera 
+sauvegard‚e lorsque vous quitterez Rayo‹d.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                              Rayo‹d III
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  ú Strat‚gie et action
+  ú Deux joueurs
+  ú ST couleur (ou TT en mode ST)
+  ú 1 Mo de m‚moire vive requis
+  ú chantillonneur DMA des STE et TT support‚
+  ú Modem compatible Hayes (ou deux cƒbles MIDI)
+
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                            Le but du jeu
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Le but du jeu est de conqu‚rir et prendre le contr“le d'une zone de 
+l'espace, avant que votre adversaire ne le fasse … votre place. Pour 
+arriver … ce but, vous devrez explorer, coloniser, attaquer des bases 
+ennemies et vous d‚fendre contre les attaques adverses.
+
+  Dans le texte qui suit, le mot ®ressource¯, lorsqu'utilis‚ seul, 
+sous-entend les ressources humaines + ‚nerg‚tiques.
+
+  Au d‚but de la partie vos ressources sont limit‚es. Vous ne poss‚dez 
+qu'une seule base d‚velopp‚e, et il en est de mˆme pour votre ennemi.
+
+  Chacune des bases possŠde elle-mˆme une quantit‚ de ressource 
+limit‚e. La quantit‚ de ressource d'une base est directement 
+proportionnelle … sa vitesse de rotation. Cependant, une base 
+d‚velopp‚e a la facult‚ d'augmenter constamment sa quantit‚ de 
+ressource. Les bases servent … refaire le plein d'‚nergie du vaisseau, 
+ainsi qu'au recrutement de colonie. Malheureusement, ces actions 
+diminuent d'autant les ressources de la base.
+
+  Une fa‡on d'augmenter rapidement vos ressources est l'‚tablissement 
+de nouvelles bases. Pour ce faire, vous devrez d‚poser des colonies 
+sur des ast‚ro‹des, ou encore sur des bases d‚truites. Mais sachez que 
+l'ennemi fera de mˆme tout en tentant d'empˆcher votre progression.
+
+  Votre vaisseau possŠde l'‚quipement n‚cessaire pour transporter des 
+colonies qui ont ‚t‚ pr‚alablement cryog‚nis‚es. Le principe de la 
+cryog‚nisation est la fa‡on la plus ‚conomique pour transporter des 
+colonies … travers l'espace.
+
+  Lorsque vous ‚tablissez des colonies, les colons s'occuperont … 
+d‚velopper la base … l'aide de la matiŠre premiŠre extraite sur place. 
+Une base en d‚veloppement ne produit aucune ressource. Le temps 
+n‚cessaire au d‚veloppement complet d'une base est directement 
+proportionnel … la quantit‚ de ressource pr‚sente sur celle-ci. Il y a 
+donc avantage … ce qu'une base se d‚veloppe au plus t“t, de fa‡on … ce 
+que celle-ci puisse produire de nouvelle ressource dont vous pourrez 
+b‚n‚ficier ult‚rieurement.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                             Le vaisseau
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Rayo‹d III se joue via le clavier de votre ordinateur. Par d‚faut, 
+les cl‚s d‚finies pour contr“ler les d‚placements de votre vaisseau 
+sont :
+
+      Rotation gauche : Z
+      Rotation droite : X
+                  Tir : Shift droit
+             R‚acteur : /
+                Frein : .
+         Hyper espace : Barre d'espacement
+         Invisibilit‚ : Delete
+  Recruter des colons : F1
+            Coloniser : F2
+     Marquer position : M
+       Faire le plein : R
+  Transmettre message : Insert
+            Reddition : F10
+         Mine furtive : L
+
+    Abandonner le jeu : Undo
+
+  L'option ®Personnaliser le Clavier¯ vous permet de r‚assigner une 
+touche de votre choix sur l'une ou l'autre des actions ci-dessus. S'il 
+y a lieu, votre configuration personnelle sera sauvegard‚e lorsque 
+vous quitterez Rayo‹d.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                   Le canon photonique, votre arme
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre vaisseau est ‚quip‚ d'un canon photonique, lequel vous permet 
+de d‚truire des cibles ennemies (bases ou vaisseau). Par d‚faut, le 
+[Shift] droit de votre clavier permet d'activer celui-ci, mais libre … 
+vous de r‚assigner une nouvelle cl‚ … cette fonction.
+
+  L'efficacit‚ de votre canon photonique d‚pend directement du plus 
+haut niveau de d‚veloppement que vous avez atteint durant le 
+d‚roulement du combat. Votre niveau de d‚veloppement se v‚rifie par le 
+nombre simultan‚ de base d‚velopp‚e … tout moment. Au fur et … mesure 
+que votre nombre de base d‚velopp‚e augmente, l'efficacit‚ de votre 
+canon augmentera de la mˆme fa‡on. Les dommages que votre canon sera 
+susceptible de produire sur les cibles ennemies augmentera donc.
+
+> Votre canon photonique ne peut que s'am‚liorer durant le cours d'une 
+partie, son efficacit‚ ne peut diminuer. Donc un gain d'efficacit‚ est 
+permanent dans le cours d'une partie, mˆme si le nombre de vos bases 
+d‚velopp‚es diminue ult‚rieurement.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                           La mine furtive
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre vaisseau possŠde une arme d'appoint qui peut vous permettre de 
+pi‚ger votre ennemi. Il s'agit de la mine furtive. Une seule mine 
+furtive est disponible en tout temps.
+
+  L'avantage de la mine furtive, est que celle-ci est invisible aux 
+yeux de l'ennemi. Autre avantage non-n‚gligeable, lorsque l'ennemi 
+frappe votre mine furtive, il sera automatiquement d‚truit, aucun 
+‚cran de protection n'ayant la capacit‚ de r‚sister … l'explosion.
+
+> Lorsque lƒch‚e, la mine furtive poss‚dera la vitesse et la direction 
+du vaisseau au moment du larguage.
+
+  Le hic avec la mine furtive, c'est que lorsque lƒch‚e, il vous est 
+impossible de r‚cup‚rer celle-ci. Pour obtenir une autre mine furtive, 
+vous devrez attendre que l'ennemi frappe celle qui est en action.
+
+  Une bonne fa‡on d'utiliser la mine furtive, est laisser cette 
+derniŠre sur place prŠs d'une base amie. Lorsque l'ennemi attaquera 
+cette base, les risques qu'il frappe la mine furtive seront grands.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                          La jauge d'‚nergie
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  La jauge d'‚nergie de votre vaisseau apparaŒt en haut … droite. 
+Votre vaisseau a besoin d'‚nergie pour fonctionner. Vous consommez de 
+l'‚nergie lorsque :
+
+  ú Vous mettez votre r‚acteur en marche
+  ú Vous ˆtes touch‚ par un tir ennemi
+  ú Vous utilisez l'hyper espace
+  ú Vous activez le g‚n‚rateur d'invisibilit‚
+
+  La plus grande consommation d'‚nergie se produit lorsque vous ˆtes 
+touch‚ par un tir ennemi, surtout les mines lanc‚es … vos trousses par 
+une base ennemie, quand vous p‚n‚trez dans sa zone d'influence. Dans 
+ce cas, l'ordinateur de bord lŠve automatiquement un ‚cran protecteur 
+qui ‚vite la destruction de votre vaisseau. Cependant, la prix … payer 
+en ‚nergie est grand. Si par malheur votre niveau d'‚nergie est 
+insuffisant pour que l'‚cran protecteur soit lev‚, votre vaisseau sera 
+d‚truit, et vous serez ‚ject‚ dans la navette de survie.
+
+> L'hyper espace et le g‚n‚rateur d'invisibilit‚ demande un niveau 
+d'‚nergie minimal pour ˆtre fonctionnel.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                            Faire le plein
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Lorsque le niveau d'‚nergie de votre vaisseau devient critique, il 
+est avis‚ de refaire le plein d'‚nergie.
+
+  Pour faire le plein d'‚nergie, vous devez ‚tablir un contact 
+physique avec une de vos bases, et presser la touche appropri‚e 
+jusqu'… ce que vous ayez atteint le niveau d‚sir‚. Par d‚faut, la cl‚ 
+[R] permet le remplissage, mais libre … vous de r‚assigner une 
+nouvelle cl‚ … cette fonction.
+
+  Lorsque vous augmentez le niveau d'‚nergie de votre vaisseau en 
+effectuant un remplissage, vous diminuez d'autant les ressources de la 
+base nourriciŠre.
+
+> Plus les ressources d'une base sont faibles, plus le temps 
+n‚cessaire pour faire le plein d'‚nergie est grand. ¶ la limite, une 
+base ne pourra vous ˆtre d'aucun secours dans votre besoin d'‚nergie.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         La navette de survie
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre vaisseau comporte une navette de survie. Si, d– … votre 
+incomp‚tence ou … votre malchance, votre vaisseau est d‚truit dans le 
+d‚roulement du jeu, vous serez ‚ject‚ … l'int‚rieur de la navette de 
+survie. Malheureusement, cette navette ne comporte aucun ‚l‚ment de 
+navigation, et vous flotterez donc … la d‚rive dans l'espace.
+
+> Le chargement cryog‚nique est perdu lorsque le vaisseau est d‚truit.
+
+  Vous devrez attendre que la navette de survie p‚nŠtre dans la zone 
+d'influence d'une de vos bases pour que votre sauvetage soit amorc‚. 
+Lorsque la navette de survie est recueilli par une de vos bases, un 
+nouveau vaisseau sera mis … votre disposition. Cependant, une 
+cons‚quence s‚vŠre de cela est que la base qui vous aura recueilli se 
+verra complŠtement vid‚ de ses ressources, un vaisseau tout neuf 
+demande beaucoup de travail et d'‚nergie.
+
+> Grƒce … sa petite taille, la navette de survie ne peut ˆtre vu ou 
+d‚tect‚e par l'adversaire.
+
+  Soyez donc prudent, car non seulement la destruction d'un vaisseau 
+comporte des co–ts ‚lev‚s en ressource, mais vous pourriez aussi 
+attendre longtemps avant d'ˆtre sauv‚, temps pr‚cieux que l'adversaire 
+utilisera … vos d‚pends.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                              Les radars
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Le panneau de contr“le de votre vaisseau est affubl‚ de deux 
+d‚tecteurs ayant l'aspect de boussole.
+
+  Le d‚tecteur avec l'aiguille bleue sert … localiser le vaisseau 
+ennemi. Cependant, ce d‚tecteur a une port‚e restreinte, et si le 
+vaisseau ennemi se trouve hors de port‚e, le d‚tecteur n'affichera 
+aucune indication.
+
+> Si l'ennemi active son g‚n‚rateur d'invisibilit‚, votre d‚tecteur ne 
+pourra le localiser.
+
+  Le d‚tecteur avec l'aiguille verte vous permet de localiser un 
+endroit que vous aurez pr‚alablement marqu‚. Par d‚faut, la cl‚ [M] 
+vous permet de marquer la position occup‚e par votre vaisseau, mais 
+une nouvelle touche peut ˆtre r‚assign‚e … cette fonction, grƒce … 
+l'option ­Personnaliser le clavier¯. Du moment qu'une position est 
+marqu‚e, l'aiguille du d‚tecteur pointera toujours en direction de 
+celle-ci.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                        La carte ‚lectronique
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  La carte ‚lectronique est un appareil ‚minemment important dans 
+l'‚volution du combat. Elle vous permet d'appr‚cier globalement le 
+rapport de force entre vous et votre adversaire, et de voir la 
+progression de votre adversaire, ce qui devrait influencer grandement 
+vos d‚cisions.
+
+  Pour qu'un objet (ast‚ro‹de ou base) apparaŒsse sur votre carte, un 
+premier contact visuel doit ˆtre ‚tabli avec celui-ci. Par la suite, 
+toute ‚volution ou modification de cet objet sera automatiquement 
+report‚ sur la carte. Vous pourrez donc ˆtre imm‚diatement inform‚ de 
+la destruction d'une de vos bases.
+
+> Votre position sur la carte est repr‚sent‚e par un pixel blanc 
+clignotant.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                               Explorer
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Un contact visuel avec un objet (ast‚ro‹de ou base ennemie) est 
+n‚cessaire pour que celui-ci apparaŒsse sur votre carte ‚lectronique. 
+Par cons‚quent, l'exploration devient un facteur important dans 
+l'‚tablissement de votre strat‚gie. Elle vous permet de dresser une 
+carte de l'espace … conqu‚rir et ainsi, d'ˆtre mieux en mesure de 
+comparer l'‚tendue des conquˆtes ennemies … votre propre progression.
+
+> La navette de survie comporte aussi une carte ‚lectronique 
+fonctionnelle. Donc les donn‚es de votre carte ne seront pas perdue si 
+votre vaisseau est d‚truit.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                     Le g‚n‚rateur d'invisibilit‚
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre vaisseau incorpore des ‚l‚ments de haute technologie. Un de 
+ces ‚l‚ments permet de vous rendre invisible aux yeux de l'adversaire. 
+Cependant, le g‚n‚rateur d'invisibilit‚ a ses d‚savantages : il 
+consomme de l'‚nergie, et il n'agit pas sur les bases ennemies. Par 
+contre il s'avŠre un outil int‚ressant dans certaines circonstances.
+
+  Si votre vaisseau ne possŠde pas la quantit‚ minimale d'‚nergie 
+requise au fonctionnement du g‚n‚rateur d'invisibilit‚, ce dernier ne 
+pourra ˆtre mis en fonction. Pour la mˆme raison, l'ordinateur de bord 
+d‚braiera automatiquement le g‚n‚rateur d'invisibilit‚ lorsque 
+l'‚nergie deviendra insuffisante.
+
+> L'invisibilit‚ s'applique seulement sur le vaisseau. Les missiles 
+restent bien visibles.
+
+  Par d‚faut, la touche [Delete] active/d‚sactive le g‚n‚rateur 
+d'invisibilit‚. Cependant, vous pouvez r‚assigner une nouvelle touche 
+… cette fonction.
+
+> La technique n'‚tant pas totalement maŒtris‚e, l'invisibilit‚ n'est 
+pas absolue. Si vous actionnez votre r‚acteur ou tirez, l'ennemi 
+pourra vous localiser si vous ˆtes en contact visuel avec lui.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                      Communiquer avec l'ennemi
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Vous pouvez communiquer avec l'ennemi en actionnant la radio 
+sub-spatiale. Par d‚faut, la touche [Insert] est r‚serv‚e … cet effet, 
+mais il vous est possible de red‚finir une nouvelle touche pour cette 
+fonction.
+
+  Lorsque vous actionnez la radio, le d‚roulement du jeu est suspendu, 
+et vous pouvez alors transmettre un message ‚crit … votre ennemi. Seul 
+la personne qui a initi‚ la communication a la possibilit‚ d'‚crire un 
+message et aussi de mettre fin … la communication.
+
+> Pour mettre fin … la communication, tapez la touche [Return].
+
+  La couleur du message affich‚ indique son origine. Si le message 
+apparaŒt en bleu, il s'agit de votre adversaire. Un message rouge 
+origine de l'ordinateur de bord.
+
+> Servez-vous de cette fonction lorsque vous d‚sirez faire une pause. 
+€a vous permettra par la mˆme occasion d'indiquer la raison de la 
+pause … votre adversaire (pipi, caf‚, b‚b‚, etc).
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                            Les astero‹des
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Les ast‚ro‹des n'appartiennent … aucune partie. Ils sont disponibles 
+pour une ‚ventuelle colonisation. Les ast‚ro‹des sont repr‚sent‚s par 
+un pixel rouge-brique sur votre carte ‚lectronique.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                              Les bases
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Les bases comportent deux ‚tats bien distincts :
+
+  ú En d‚veloppement
+  ú D‚velopp‚es
+
+  Vos bases sont toujours vertes, alors que les bases ennemies sont 
+toujours bleues.
+
+  Il est important de retenir les points suivants :
+
+  ú Une base en d‚veloppement ne produit aucunes ressources neuves.
+  ú Plus une base en d‚veloppement comporte de ressource, plus son 
+    d‚veloppement sera rapide.
+  ú Une base en d‚veloppement peut se d‚fendre contre les attaques 
+    ennemies.
+  ú La vitesse de rotation d'une base fonctionnelle (d‚velopp‚e) est 
+    d'autant plus rapide que ses ressources sont ‚lev‚es.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         Recruter des colons
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre vaisseau possŠde l'‚quipement n‚cessaire pour transporter des 
+colonies qui ont ‚t‚ pr‚alablement cryog‚nis‚es. Le principe de la 
+cryog‚nisation est la fa‡on la plus ‚conomique pour transporter des 
+colonies … travers l'espace.
+
+  Cependant, la maniabilit‚ de votre vaisseau est beaucoup influenc‚e 
+par la taille de votre chargement. Plus votre chargement est 
+important, plus l'‚nergie n‚cessaire pour atteindre une certaine 
+vitesse sera importante. Par cons‚quent, vous devenez beaucoup plus 
+vuln‚rable … une attaque directe de l'ennemi sur votre vaisseau.
+
+  Votre vaisseau peut recevoir huit unit‚s de colonies cryog‚nis‚es. 
+Pour recruter des colons, vous devez ‚tablir un contact physique avec 
+une de vos bases. Lorsque le contact est ‚tabli, pressez la touche 
+[F1] (par d‚faut) autant de fois que vous d‚sirez d'unit‚s 
+cryog‚niques.
+
+> D‚pendamment des ressources disponibles sur la base concern‚e, il se 
+peut que la quantit‚ d'unit‚ cryog‚nique disponible soit limit‚e.
+
+  Pour chaque unit‚ cryog‚nique que vous transportez, un t‚moin 
+lumineux lui est associ‚. Ces t‚moins apparaŒssent en bas … droite du 
+panneau de contr“le de votre vaisseau.
+
+> Le transport d'unit‚ cryog‚nique n'est pas strictement r‚serv‚ … la 
+colonisation, mais peut aussi servir … d‚placer des troupes d'une de 
+vos bases vers une autre dans le besoin.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                              Coloniser
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Les ast‚ro‹des ou bases d‚truites peuvent ˆtre colonis‚s par l'une 
+ou l'autre des deux parties. Au moment o— la colonisation s'effectue, 
+le d‚veloppement d'une nouvelle base sera amorc‚e.
+
+  Une base en d‚veloppement ne produit aucune ressource nouvelle. Une 
+base en d‚veloppement utilise la totalit‚ de ses ressources … son 
+achŠvement, de fa‡on … ce qu'elle puisse devenir fonctionnelle, et par 
+cons‚quent, avoir la capacit‚ de produire de nouvelles ressources.
+
+> Les bases en d‚veloppement ont la possibilit‚ de se d‚fendre contre 
+l'ennemi.
+
+  Pour coloniser, vous devez n‚cessairement transporter des unit‚s 
+cryog‚niques. Dans ce cas, il vous suffit d'‚tablir un contact 
+physique avec l'objet … coloniser (ast‚ro‹de ou base d‚truite), et 
+presser la touche [F2] (par d‚faut), pour d‚poser une ou plusieurs 
+unit‚s cryog‚niques.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                      Attaquer une base ennemie
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Les bases ennemies se d‚fendent lorsque votre vaisseau p‚nŠtre dans 
+leur zone d'influence, et ceci qu'elles soient en d‚veloppement ou 
+complŠtement d‚velopp‚es. Les armes qu'elles utilisent sont 
+redoutables, et peuvent rapidement mettre hors de combat votre 
+vaisseau. Par cons‚quent, vous devrez ‚laborer une tactique pour venir 
+… bout d'une base ennemie.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         La fin de la partie
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Une partie peut se terminer de plusieurs fa‡ons. Lorsque l'un ou 
+l'autre des adversaires voit toutes ses bases an‚anties, et que son 
+vaisseau ne comporte aucune colonie cryog‚nis‚e (qui pourrait lui 
+permettre l'‚tablissement d'une nouvelle base), la partie se termine. 
+
+  Il peut arriver que le joueur constate que la victoire ne lui est 
+d‚sormais plus accessible. Dans ce cas, il peut se rendre … l'ennemi 
+en pressant la cl‚ [F10] : il s'agit d'une reddition. En agissant de 
+la sorte, il concŠde la victoire … son adversaire, et une d‚faite sera 
+port‚ … sa fiche personnelle.
+
+  Au moment o— la partie se termine, des statistiques int‚ressantes 
+sur le d‚roulement du jeu sont pr‚sent‚es. Pour chacun des joueurs, le 
+nombre total de base d‚velopp‚e et en d‚veloppement, la quantit‚ 
+totale des ressources, ainsi que le temps pass‚ dans la navette de 
+survie (en %) sont affich‚s.
+
+  Lorsque la partie se termine, les fiches personnelles de chacun des 
+joueurs sont mise … jour selon les r‚sultats du combat. La fiche 
+personnelle d'un joueur sera sauvegard‚e sur disque lorsque Rayo‹d 
+sera quitt‚ (de fa‡on normale).
+
+  Il est aussi possible d'abandonner un combat en cours en tapant la 
+touche [Undo]. Dans ce cas, il n'y a aucun gagnant ou perdant, et les 
+fiches personnelles des joueurs restent intactes. L'abandon d'une 
+partie en cours devrait ˆtre discut‚ entre les deux joueurs. Soyez 
+honnˆte.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                       Votre fiche personnelle
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Votre fiche personnelle comporte des statistiques qui reflŠtent les 
+r‚sultats de l'ensemble des combats auxquels vous avez particip‚. Elle 
+permet de connaŒtre le nombre des victoires et d‚faites ainsi que 
+d'autres d‚tails int‚ressants, et permet aussi … chacun des joueurs de 
+se faire une id‚e sur la comp‚tence et l'exp‚rience de l'adversaire au 
+d‚but d'une nouvelle partie.
+
+  La fiche personnelle d'un joueur est gard‚e et mise … jour en 
+permanence par Rayo‹d, … la condition que Rayo‹d puisse sauvegarder 
+sur disque lorsque le joueur quitte le programme. Assurez-vous donc 
+que la disquette soit non-verrouill‚e et pr‚sente dans le lecteur au 
+moment de quitter (Rayo‹d peut aussi ˆtre install‚ sur disque dur sans 
+problŠme).
+
+  Vous pouvez r‚initialiser votre fiche personnelle en choisissant 
+l'option ®Initialiser Fiche Personnelle¯. Dans ce cas, Rayo‹d vous 
+demande de confirmer l'initialisation, car toutes les donn‚es seront 
+irr‚m‚diablement perdues. Si vous confirmez l'initialisation, vous 
+devrez entrer votre nom, nom qui vous identifiera dans vos combats 
+avec les autres. ¶ partir de ce moment, Rayo‹d cumulera vos victoires 
+et d‚faites, et vous grimperez ainsi les ‚chelons de la hi‚rarchie.
+
+  Pour vous faire une id‚e g‚n‚rale de l'exp‚rience et de la force 
+d'un joueur, un systŠme de m‚daille a ‚t‚ ‚tablie. Les m‚dailles se 
+cumulent au fil de vos victoires et d‚faites et vous indiquent la 
+valeur r‚elle d'un joueur. Pour chaque victoire, vous grimpez de trois 
+‚chelons dans la hi‚rarchie. Pour chaque d‚faite, vous grimpez d'un 
+seul ‚chelon, question de souligner l'exp‚rience acquise lors de votre 
+combat, mˆme s'il se solde par une d‚faite.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+Amusez-vous bien !!!
+
+Raymond Hill
+20 novembre 1992
+
+  Autres produits de Raymond Hill disponibles sur les babillards 
+‚lectroniques :
+
+
+  TITED.ARC (ou LZH) - v1.00
+
+  Petit utilitaire performant qui vous permet de charger, lire et 
+imprimer un texte ASCII. Un excellent rempla‡ant au ®Show¯ et ®Print¯ 
+du Bureau. Les accents sont support‚s … l'impression. EntiŠrement sous 
+GEM, il peut ˆtre utilis‚ comme application ou accessoire. Toutes les 
+r‚solutions de toutes les machines de la gamme ST (TT, Falcon...) sont 
+support‚s. Fait la d‚monstration que GEM peut ˆtre rapide et agr‚able 
+… utiliser.
+
+  DerniŠre heure : TITED sera bient“t disponible comme ‚diteur de 
+texte complet. Ne le manquez pas. Il possŠde des caract‚ristiques que 
+mˆme certains logiciels commerciaux ne possŠdent pas (s‚lection de 
+bloc … la Mac, UNDO omnipr‚sent, etc...).
+
+
+  BLAKJACK.ARC (ou LZH) - v1.3
+
+  Blackjack qui accepte quatre joueurs, entiŠrement sous GEM, il peut 
+aussi ˆtre utilis‚ comme application ou accessoire. Fonctionne sur 
+toutes la gammes ST (TT, Falcon...) et toutes les r‚solutions. Ce qui 
+le diff‚rencie de tout autre BlackJack, c'est son interpr‚teur de 
+strat‚gie int‚gr‚. Cr‚ez des joueurs qui automatisent la prise de 
+d‚cision, ce qui vous permet d'‚valuer et comparer diff‚rentes 
+strat‚gies facilement. Fait la d‚monstration que GEM permet un certain 
+niveau de multitƒche, Blackjack continue de fonctionner en pr‚sence 
+d'autres applications GEM lorsqu'utilis‚ comme accessoire...
+
+
+  JOUTE.ARC (ou LZH) - v1.1
+
+  Jeu pour deux joueurs exclusivement. En tˆte-…-tˆte ou 
+modem-…-modem, deux joueurs s'affrontent dans un combat de char dans 
+un d‚cor ‚trange ou des objets viennent compliquer leur tƒche. 
+Frayez-vous un chemin … travers la forˆt, ‚vitez les marais et la 
+lave... Point important : Joute est un partagiciel, et fonctionne sur 
+ST couleur, ou TT en mode ST couleur. Manette(s) de jeu requise(s).

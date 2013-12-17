@@ -1,0 +1,712 @@
+
+  RAYOID.ENG  Copyright 1992  Raymond Hill
+  All rights reserved
+
+  Raymond Hill can be reached on...
+
+  GEnie
+    O.OKTAL (Thanks to Oktal)
+
+  MASS, (514)678-0879, (514)678-0256
+    Ray
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                              Read this!
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  RAYOID.LZH, RAYOID.PRG, RAYOID.FRA and RAYOID.ENG are Copyright 
+1992.
+
+  This is the unregistered version. You have to register yourself to 
+obtains the full version (which is able to SAVE) of RAYOID.
+
+  It is strictly forbidden to change, edit or modify in any way the 
+archive file RAYOID.LZH or the files RAYOID.PRG, RAYOID.FRA and 
+RAYOID.ENG.
+
+  You are free to copy and distribute without any charge the archive 
+file RAYOID.LZH provided it has not been modified in any way.
+
+  The author forbids the distribution of RAYOID.LZH on disk, without 
+the express permission of Raymond Hill.
+
+  Any person violating these terms could be prosecuted.
+
+  Caution! You can not make an auto-decompress program with 
+RAYOID.PRG. If you try this, your RAYOID.PRG will not works.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                     RAYOID - Three games in one!
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  RAYOID is a package offering three different types of game. In each 
+one, the action takes place in space with you controlling a ship. But 
+the goal is different depending on the mode selected.
+
+  Playing modes:
+
+  ú Single player mode
+  ú Two-player mode using keyboard
+  ú Two-player mode by modem
+  ú Two-player mode via MIDI
+
+  For details on each playing mode, see text below.
+
+  The archive file RAYOID.LZH should contain these three files ONLY:
+
+  ú RAYOID.PRG  Executable program, unregistered version (90430 bytes)
+  ú RAYOID.FRA  French documentation
+  ú RAYOID.ENG  English documentation
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                         RAYOID is shareware
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+  The principle of Shareware is simple:  The programmer leaves all 
+between the hands of the user. After working on the development, 
+programming and documentation of the program, the author places the 
+software on the networks where it can be distributed freely and 
+without any charge and where the users can get a FREE copy of the 
+software.
+
+  Those interested can then try it thoroughly without having to pay 
+$50 or more for poor quality software or for a program they don't 
+like.
+
+  The final decision rests with the user who likes the game and 
+decides to use it, thus benefitting from the programmer's work. Think 
+about it.
+
+  I received no money for the many hours spent on the development of 
+this software. I could have spent these more profitably, but I decided 
+to have a try at shareware because there are some advantages. But the 
+shareware principle, which is based on the integrity of both parties, 
+is not going to work if one party does not respect its part of the 
+agreement. Be honest with yourself and you will be supporting a new 
+dynamic concept in the computing world that can only improve the 
+creativity and the quality of the software packages available for YOUR 
+computer.
+
+  Sincerely, I hope it will work as this would allow me to work in a 
+field I like and give you access to software at budget prices.
+
+  If you decide to keep and to use RAYOID, you will receive a 
+registered copy tagged with your name, with the "Save" option enabled, 
+which one allows you to keep your hi score, personnal record, custom 
+keyboard configuration, etc. Send:
+
+  Money order, 12 dollars (Canadian) to the following address:
+
+  Raymond Hill (RAYOID)
+  62, rue Brodeur
+  Saint-Constant (Qu‚bec)
+  Canada
+  J5A 1X3
+
+  Thanks.
+
+  A custom copy with your name and that have the "Save" options will 
+be send to you quickly. Don't forget to include your name and address.
+
+P.S.: If the shareware concept works, please be aware that I have 
+several projects waiting to be completed, just as RAYOID was just a 
+few weeks ago. For the moment, I can tell you that all these projects 
+are games that can be played by two players by modem and MIDI all with 
+sound samples, etc. Also, I plan to support the monochrome orphan for 
+next game.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+             The development of RAYOID was no easy task!
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+Here are some of the specifications I set for the game:
+
+ú At least one game mode should work with only 512K of RAM
+ú 60 images per second animation at all times
+ú Sound samples at 6300 KHz
+ú RAYOID should work without problems on a TT
+ú Use of DMA sound on STE's and TT's
+ú The game should be playable by modem at 1200 or 2400 bps without 
+  affecting the animation
+ú Ability to play on two machines linked by MIDI cables
+ú Single file for program, images, sounds and configuration data
+ú Something for everyone: action and/or strategy
+ú Multilingual: English and French for now. I wish I could support 
+  more!
+ú Highest quality in the smallest details. "Shareware" is sometimes 
+  interpreted as "incomplete" software. I wanted to avoid this.
+
+  RAYOID represents more than 20,000 lines of code, 95% of which are 
+pure assembly. Add to that the many hours spent on graphics, sound 
+samples, etc. to achieve ultimate quality in the smallest details.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                               RAYOID I
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+ú Action game
+ú One-player
+ú ST color (or TT in ST mode)
+ú Minimum 512K RAM required
+ú DMA sound on STE's and TT's
+
+  RAYOID I is a personal adaptation of a well-known classic. The goal 
+is to destroy asteroids before they destroy you.
+
+  Using the "Customize keyboard" option, you can reassign the control 
+keys to your taste. This is a welcome option for left-handers. Any key 
+on the keyboard can be used except for those used by the menu system 
+(up and down arrow keys, Return and Undo). By default, the controls 
+are as follows:
+
+ Left turn : Z
+Right turn : X
+      Fire : Right Shift
+   Reactor : /
+     Brake : .
+Hyperspace : Space bar
+     Pause : Esc
+
+ Quit game : Undo
+
+  If you make any changes, your personal configuration will be saved 
+to disk when you quit RAYOID.
+
+  From time to time, bonus objects will cross the screen. Get them 
+fast as they will give you some extras.
+
+  You get a replacement ship when you reach a score of 2000 points. 
+Thereafter, you will get a new ship for every 5000 points (i.e. 7000, 
+12000, 17000, etc.).
+
+  When you end a game with a score higher than the current top score, 
+RAYOID will ask you to enter your name. You will also have the 
+possibility to enter a personal message that will accompany your name 
+in the main screen. The top score, the champion's name and message 
+will be saved to disk when quitting.
+
+  When either modem (or MIDI) mode is used (i.e. RAYOID II or III), 
+the top scores achieved by each player on RAYOID I will be exchanged 
+between the two machines and the highest of the two will become the 
+current top score on both machines. For instance, if five players play 
+RAYOID regularly, then the best player of the five will have his score 
+displayed on the five computers.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                         RAYOID II - Keyboard
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+ú Action game (combat)
+ú Two players
+ú ST color (or TT in ST mode)
+ú 1 Mbyte RAM required
+ú DMA sound supported on STE's and TT's
+
+  RAYOID II gets you against a human opponent in a fight where victory 
+belongs to the most skillful of the two players.
+
+  The goal of the game is simple, you must destroy your opponent 
+before he destroys you! To do this, all you have to to is shoot at him 
+with your photonic gun. Each successful shot reduces the energy level 
+of your opponent's ship. When the energy level is down to zero, the 
+ship is destroyed and you win a point.
+
+  But different objects get in the way. Avoid asteroids 
+(indestructible) and improve you ship relative to your opponent's by 
+touching the nova.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                     RAYOID II - Modem (or MIDI)
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+ú Action game (combat)
+ú Two players
+ú ST color (or TT in ST mode)
+ú 1 Mbyte RAM required
+ú DMA sound on STE's and TT's
+ú Hayes compatible modem (or two MIDI cables)
+
+  This mode gets you against a human opponent, linked by modem, in a 
+battle of skills. The ability to play by modem is a welcome feature 
+for long winter nights (which are common here in Qu‚bec).
+
+  The goal is simple: you must destroy your opponent before he 
+destroys you. To do this, all you have to to is shoot at him with your 
+photonic gun. Each successful shot reduces the energy level of your 
+opponent's ship. When the energy level reaches zero, the ship is 
+destroyed and you win a point.
+
+  But different objects get in the way. Avoid asteroids 
+(indestructible) and improve you ship relative to your opponent's by 
+touching the nova.
+
+  You can communicate with your opponent using the [Insert] key. To 
+end communication and return back to the game, use the [Return] key.
+
+  By default, the controls are as follows: 
+
+   Left turn : Z
+  Right turn : X
+        Fire : Right Shift 
+     Reactor : / 
+       Brake : .
+  Hyperspace : Space bar  
+Send message : Insert
+
+   Quit game : Undo
+
+  Of course, you can reassign these keys using the "Customize 
+Keyboard" option and your configuration will be saved to disk when you 
+quit RAYOID.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+                              RAYOID III
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+ú Strategy and Action
+ú Two players
+ú ST color (or TT in ST mode)
+ú 1 Mbyte RAM required
+ú DMA sound on STE's and TT's
+ú Hayes compatible modem (or two MIDI cables)
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                                 Goal
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  The object of the game is to conquer and take control of a space 
+zone before your opponent. To do that, you must explore, colonize, 
+attack enemy bases and defend yourself against your opponent's 
+attacks.
+
+  In the following text, the word "resources", when used alone, means 
+human and energy resources.
+
+  At the beginning of the game, your resources are limited. You have 
+only one developed base, and so has your opponent.
+
+  Each base also has limited resources. The resource level of a base 
+is directly proportional to its rotation speed. However, a developed 
+base has the ability to constantly increase its resource level. You 
+use your bases to replenish your ship's energy and to recruit new 
+colonies. Unfortunately, these actions also decrease the resource 
+level of the base.
+
+  One way to increase your resources rapidly is to establish new 
+bases. To do this, you must leave colonies on asteroids or destroyed 
+bases. But be aware that your enemy will do just the same while trying 
+to stop your progression.
+
+  Your ship is equipped to transport colonies that have been 
+previously cryogenized. Cryogenization is the most economical way of 
+transporting colonies through space.
+
+  When you establish colonies, the colonists will develop the base 
+using the raw materials produced locally. A base under development 
+does not produce any resources. The time required for the complete 
+development of a base is in direct proportion with the quantity of 
+resources available on the base. So it is a good thing that a base 
+gets developed as soon as possible for it to produce new resources 
+that you can use later.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                               The ship
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  You play RAYOID III using your computer's keyboard. By default, the 
+following keys control your ship:
+
+        Left turn : Z
+       Right turn : X
+             Fire : Right Shift
+          Reactor : /
+            Brake : .
+       Hyperspace : Space bar
+     Invisibility : Delete
+Recruit colonists : F1
+         Colonize : F2
+    Mark position : M
+           Refuel : R
+     Send message : Insert
+        Surrender : F10
+    Stealthy mine : L
+
+     Abandon game : Undo
+
+  The "Customize Keyboard" option allows you to reassign any key to 
+control any of the actions above. If any change is made, your 
+configuration will be saved to disk when you quit RAYOID.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                    The photonic gun, your weapon
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Your ship is equipped with a photonic gun which enables you to 
+destroy enemy targets (bases or ship). By default, the Right Shift key 
+on your keyboard controls the photonic gun, but you can reassign this 
+key as you wish.
+
+  The effectiveness of your photonic gun depends on the highest level 
+of development you have reached during the game. Your development 
+level corresponds to the number of simultaneous bases present at any 
+time. As your number of developed bases increases, the effectiveness 
+of your gun increases accordingly. Therefore, the damages that can be 
+caused by your gun will also increase.
+
+> Your photonic gun can only improve through a game; its effectiveness 
+cannot decrease. This means that any gain in power is permanent during 
+a game even if your number of developed bases decrease thereafter.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                          The stealthy mine
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  The stealthy mine is invisible to your opponent's eyes.
+
+  When the opponent hit the stealthy mine, it will be completely 
+destroyed and will be ejected in his escape shuttle. No shield can 
+resist to a stealthy mine.
+
+  Only one stealthy mine is available at any time.
+
+> When launched, the stealthy mine will have the speed and direction 
+of the ship at this moment, and will keep these attribute.
+
+  A good way to use the stealthy mine, is to launch it with a nul 
+speed around one of your base. When the opponent will attacks this 
+base, it have great chance to hit the hidden mine.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                        The energy level gauge
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  The energy gauge of your ship appears in the upper right corner. 
+Your ship needs energy to operate. You lose energy when:
+
+ú You put the reactor on
+ú You are shot by your opponent
+ú You use hyperspace
+ú You activate the invisibility generator
+
+  The greatest energy consumption occurs when you are shot by your 
+enemy, especially by the mines shot at you by an enemy base when you 
+penetrate its control zone. If you do so the ship's computer 
+automatically raises protector shields to avoid the destruction of 
+your ship. But the price to pay in terms of energy is high. If your 
+energy level is too low for the shields to be raised, your ship will 
+be destroyed and you will be ejected in the escape shuttle.
+
+> Hyperspace and the invisibility generator require a minimum energy 
+level to operate.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                                 Fuel
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  When the energy level of your ship becomes critical, you'd better 
+refuel.
+
+  To get new fuel, you must make physical contact with one of your 
+bases and then press the appropriate key until the desired level is 
+reached. By default, the [R] key is used to refuel, but still you can 
+reassign this key as you wish.
+
+  When you increase your ship's energy level by refueling you decrease 
+the resources of the feeding base accordingly.
+
+> The lower the resources of a base, the longer it will take to refuel 
+your ship. A base might even be too low on resources to give you any 
+energy.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                          The escape shuttle
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Your ship is equipped with an escape shuttle. If, for any reason, be 
+it bad luck or poor skills, your ship is destroyed during the game, 
+you will be ejected to the escape shuttle. Unfortunately, the shuttle 
+has no navigation controls and you will wander aimlessly through 
+space.
+
+> The cryogenic load is lost when the ship is destroyed.
+
+  You must wait until the escape shuttle gets into the control zone of 
+one of your bases for the salvage operation to begin. When the escape 
+shuttle is recovered by one of your bases, a new ship will be made 
+available to you. However, the base will then be left without any 
+resources because a brand new ship requires much work and resources.
+
+> The escape shuttle is so small it cannot be seen or detected by your 
+opponent.
+
+  So, be careful because the destruction of a ship not only means a 
+high cost in terms of resources, but you may also have to wait pretty 
+long to be saved and your enemy can use this time to his advantage.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                                Radars
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  The control panel of your ship is equipped with two detectors 
+looking like a compass.
+
+  The detector with a blue pointer is used to locate the enemy ship. 
+However, this detector has a limited range and if the enemy ship is 
+out of range the detector will not react.
+
+> If your opponent activates his invisibility generator, your detector 
+will not be able to locate him.
+
+  The detector with the green pointer allows you to locate a position 
+you have previously marked. By default, the [M] key is used to mark 
+the position of your ship, but you can reassign this key using the 
+"Customize keyboard" option. When a position is marked, the green 
+pointer will always point in that direction.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                          The electronic map
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  The electronic map is critical during a fight. It helps you 
+determine your strength relative to your opponent and allows you to 
+check your opponent's progression, thus helping you make decisions.
+
+  For an object (asteroid or base) to be shown on the map, visual 
+contact must first be established with it. Thereafter, every change in 
+this object will be automatically reflected on the map. That way, you 
+will be immediately kept informed of the destruction of one of your 
+bases.
+
+> Your position on the map is represented by a flashing white dot.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                               Explore
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Visual contact with an object (asteroid or enemy base) is required 
+for it to be shown on the electronic map.
+
+  Therefore, exploration should be an important aspect of your 
+strategy. By exploring, you create a map of the areas to conquer and 
+you get a better view of your enemy's progression relative to yours.
+
+> The escape shuttle also has an electronic map. This means your map 
+data will not be lost if your ship is destroyed.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                      The invisibility generator
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Your ship is equipped with high technology items. One of these 
+enables you to become invisible to your opponent. However, the 
+invisibility generator has its disadvantages: it uses energy and it 
+has no effect on enemy bases. On the other hand, it can be helpful in 
+certain circumstances.
+
+  If your ship does not have the minimum energy level required, you 
+will not be able to activate the invisibility generator. For the same 
+reason, the ship's computer will automatically deactivate the 
+invisibility generator when the energy level is too low.
+
+> The invisibility applies only to the ship. The missiles stay 
+visible.
+
+  By default, the [Delete] key activates/deactivates the invisibility 
+generator. However, you can reassign it.
+
+> As the technology is not totally mastered, the invisibility is not 
+absolute. If you shoot or activate your reactor, your opponent will be 
+able to locate you if in visual contact.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                     Communicating with the enemy
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  You can communicate with your enemy by using the subspace radio. By 
+default, the [Insert] key is used for this, but you can reassign it to 
+your liking.
+
+  When you activate the radio, the game is suspended and you can send 
+a written message to your opponent. Only the player who has started 
+the communication can send a message or end the communication.
+
+> To end the communication, press the [Return] key.
+
+  The color of the message indicates its origin. If the message 
+appears in blue, it is from your opponent. A red message is from the 
+ship's computer.
+
+> Use this function when you want to pause the game. You can also give 
+your opponent the reason for the pause (coffee, baby crying, etc.).
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                              Asteroids
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Asteroids belong to nobody. They are available for colonization. 
+Asteroids appears as brick-red dots on the electronic map.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                                Bases
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+Bases have two distinct states:
+
+ú under development
+ú developed
+
+Your bases are always green and your opponent's always blue.
+
+Important to know:
+
+ú A base under development does not produce any new resources.
+ú The more a base has resources, the faster its development will take 
+place.
+ú A base under development can defend itself against enemy attacks.
+ú The rotation speed of an operational base (developed) will increase 
+with the level of resources.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         Recruiting colonists
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Your ship is equipped for the transportation of colonies that have 
+previously been cryogenized (frozen). Cryogenization is the most 
+economical means to transport colonies through space.
+
+  However, the maneuverability of your ship is much affected by the 
+size of your load. The greater your load, the higher the energy level 
+required to reach a certain speed. And you will be more vulnerable to 
+your opponent's attacks.
+
+  Your ship can accommodate eight cryogenized colonies. To recruit 
+colonists, you must establish physical contact with one of your bases. 
+When contact is established, press the [F1] key (default) as many 
+times as you want cryogenized units.
+
+> Depending on the available resources on the base, the number of 
+cryogenized units can be limited.
+
+  For each cryogenized unit that you bring along, a light appears. 
+These lights appear in the lower right of your ship's control panel.
+
+> The transportation of frozen units is not only for colonization 
+purposes, but can be used to move troops from one base to another as 
+required.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                               Colonize
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Asteroids or destroyed enemy bases can be colonized by either 
+player. Colonization starts the development of a new base.
+
+  A base under development does not produce any new resources. A base 
+under development uses all of its resources for its development in 
+order to be operational and be able to produce new resources.
+
+> Bases under development are capable of defending themselves against 
+the enemy.
+
+  To colonize you have to transport cryogenized units. To do that, you 
+just have to establish physical contact with the object to be 
+colonized (asteroid or destroyed base) and press the [F2] key 
+(default) to drop off one or more cryogenized units.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                       Attacking an enemy base
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Enemy bases defend themselves when your ship penetrates their 
+control zone whether they are under development or completely 
+developed. The weapons they use are very powerful and can rapidly 
+wreck your ship. Therefore, you must use some strategy to beat an 
+enemy base.
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         The end of the game
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  There are many ways a game can end. When all bases of either player 
+are destroyed and the player has no cryogenized colony left (which 
+could be used to establish new bases), the game ends.
+
+  In some instances, the player may realize that victory is not 
+possible. In this case, he may surrender to his opponent by pressing 
+the [F10] key. By doing this, he gives away victory to his opponent 
+and a defeat will be added to his personal record.
+
+  When the game ends, statistics on the game just played are 
+presented. For each player, the total number of bases (developed and 
+under development), the total amount of resources as well as the time 
+spent in the escape shuttle (as a percent of total time) are 
+displayed.
+
+  When the game ends, the personal records of each player are updated 
+with the results of the combat. The personal record of a player will 
+be saved to disk when quitting RAYOID in a normal way.
+
+  It is also possible to abandon an ongoing game by pressing the 
+[Undo] key. In that case there will be no winner or loser and the 
+players' personal records are not updated. Before doing this, maybe 
+you should discuss it with the other player. Be fair!
+
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+                         Your personal record
+ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂ
+
+  Your personal record contains statistics which reflect the results 
+of all fights in which you have participated. It shows you the number 
+of victories and defeats as well as other interesting details, and 
+gives each player an idea of the skills and experience of his opponent 
+at the beginning of a new game.
+
+  The personal record of a player is maintained and updated by RAYOID 
+as long as the program can save to disk when the player quits the 
+game. Be sure to write-enable your disk and to leave it in the drive.
+
+  You can reset your personal record by choosing the "Reset personal 
+record" option. In this case, RAYOID will ask for confirmation as all 
+data will be lost forever. If you confirm the reset, you will have to 
+enter your name. This name will be used to identify you in your fights 
+with other players. From that point, RAYOID will summarize your 
+victories and defeats as you improve.
+
+  To give you a general idea of the experience and strength of a 
+player, a medal system has been established. Medals indicate the real 
+value of a player. For each victory, you climb up three steps in the 
+hierarchy. For each defeat, you still go up one step to reflect the 
+experience gained.
+
+ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃ
+
+Have fun!
+
+Raymond Hill
+GEnie : O.OKTAL (Thanks to Oktal)
+November 20, 1992
+
+From the same author:
+
+TITED.ARC (or LZH)
+  A small GEM program (or accessory) for viewing any ASCII files. It 
+is fast and convenient.
+
+  New -> TITED will be shipped soon as a full featured ASCII editor. 
+Check out for it! It has features you will find difficult to see in 
+others products, even commercial ones, of the same kind (Mac like 
+block selection, full UNDO, etc ... ).
+
+JOUTE.ARC (or LZH)
+  Another game that can be played via modem. Its simple but funny. 
+Must be see. Another shareware game. Move your tank, and be more 
+speedy and tricky than your opponent to win.
+
+BLAKJACK.ARC (or LZH)
+  A full GEM program (or accessory) that lets you play to BlackJack. 
+But different from the others, it lets you script program that 
+simulate a player. You can evaluate quickly different strategy to 
+improve your play. Up to four players. When used as an accessory, this 
+program can work in background, even if its window is not active. Let 
+different scripts works for 100,000 turns, and see the result of each 
+one!!! Maybe you will find how to win (or to lose the less..)!
